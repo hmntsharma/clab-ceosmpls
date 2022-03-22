@@ -13,7 +13,7 @@ The details of the config are the outcome of the Arista [user manual](https://ww
 ### Pre-Requisite
 
 + Install [Docker](https://www.docker.com/)
-+ Download cEOS-lab-4.27.2F.tar docker image, from [Arista](https://www.arista.com/) and import in Docker
++ Download cEOS-lab-4.27.2F.tar docker image from [Arista](https://www.arista.com/) and import in Docker
 + Install [wbitt/network-multitool](https://hub.docker.com/r/wbitt/network-multitool) docker image
 + Install [containerlab](https://containerlab.dev/)
 
