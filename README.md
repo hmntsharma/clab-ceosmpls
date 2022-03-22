@@ -9,6 +9,8 @@ The details of the config are the outcome of the Arista [user manual](https://ww
 
 ## Demo
 
+Note: [Containerlab](https://containerlab.dev/) must already be installed as a pre-requisite
+
 ### Clone the repository
 
 ```
