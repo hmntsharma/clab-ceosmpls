@@ -9,7 +9,7 @@ The details of the config are the outcome of the Arista [user manual](https://ww
 
 ## Demo
 
-Note: [Containerlab](https://containerlab.dev/) must already be installed as a pre-requisite
+Note: [Docker](https://www.docker.com/) and [Containerlab](https://containerlab.dev/) installed as a pre-requisite to run the topology
 
 ### Clone the repository
 
