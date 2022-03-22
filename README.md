@@ -1,6 +1,7 @@
 # containerlab - ceosmpls
 Arista cEOS MPLS Test in containerlab
-![mpls](https://user-images.githubusercontent.com/101124549/159495512-79d6b526-79e0-413d-9cb6-9304e542b005.png)
+![ceosmpls](https://user-images.githubusercontent.com/101124549/159575013-c40d81b6-3a98-4ea7-8550-bc4a36d388d4.png)
+
 
 
 Sample config and setup, used to test mpls forwarding support in Arista cEOS with containerlab.
