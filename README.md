@@ -73,6 +73,8 @@ lab@ubuntu1804:~/clab/clab-ceosmpls$
 
 ### Ping PC1 to PC3
 
+End to End communication using mpls data-plane.
+
 ```
 lab@ubuntu1804:~/clab/clab-ceosmpls$ sudo docker exec PC1 ping -c4 192.168.200.1
 PING 192.168.200.1 (192.168.200.1) 56(84) bytes of data.
