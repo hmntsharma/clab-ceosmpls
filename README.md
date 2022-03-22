@@ -4,4 +4,4 @@ Arista cEOS MPLS Test in containerlab
 
 Sample config and setup, used to test mpls forwarding support in Arista cEOS with containerlab.
 
-The details of the config are the outcome of collaboration in this [thread](https://github.com/srl-labs/containerlab/discussions/807)
+The details of the config are the outcome of the collaboration in this [thread](https://github.com/srl-labs/containerlab/discussions/807)
