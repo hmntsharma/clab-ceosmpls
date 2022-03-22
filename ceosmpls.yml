@@ -1,0 +1,35 @@
+name: ceosmpls
+prefix: ""
+topology:
+  kinds:
+    ceos:
+      image: ceos:4.27.2F 
+    linux:
+      image: wbitt/network-multitool
+  nodes:
+    R1:
+      kind: ceos 
+    R2:
+      kind: ceos 
+    R3:
+      kind: ceos 
+    PC1:
+      kind: linux 
+      binds: 
+        - PC1/pc1.sh:/home/pc1.sh
+      exec:
+        - /bin/bash /home/pc1.sh
+    PC3:
+      kind: linux 
+      binds: 
+        - PC3/pc3.sh:/home/pc3.sh
+      exec:
+        - /bin/bash /home/pc3.sh
+
+  links:
+    - endpoints: ["R1:eth1", "R2:eth1"]
+    - endpoints: ["R2:eth2", "R3:eth2"]
+    - endpoints: ["R1:eth3", "PC1:eth3"]
+    - endpoints: ["R3:eth3", "PC3:eth3"]
+
+
