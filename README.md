@@ -9,7 +9,12 @@ The details of the config are the outcome of the Arista [user manual](https://ww
 
 ## Demo
 
-Note: [Docker](https://www.docker.com/) and [Containerlab](https://containerlab.dev/) installed as a pre-requisite to run the topology
+### Pre-Requisite
+
++ Install [Docker](https://www.docker.com/)
++ Install cEOS-lab-4.27.2F.tar docker image
++ Install wbitt/network-multitool docker image
++ Install [containerlab](https://containerlab.dev/)
 
 ### Clone the repository
 
