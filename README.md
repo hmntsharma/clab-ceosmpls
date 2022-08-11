@@ -20,7 +20,7 @@ The details of the config are the outcome of the Arista [user manual](https://ww
 ### Clone the repository
 
 ```
-lab@ubuntu1804:~/clab$ sudo git clone https://github.com/w1nt3rfell/clab-ceosmpls.git
+lab@ubuntu1804:~/clab$ sudo git clone https://github.com/hmntsharma/clab-ceosmpls.git
 Cloning into 'clab-ceosmpls'...
 remote: Enumerating objects: 266, done.
 remote: Counting objects: 100% (266/266), done.
